@@ -2,3 +2,16 @@ body {
     background: rgb(2,0,36);
 background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(20,230,207,1) 0%, rgba(0,255,184,1) 49%, rgba(16,200,208,1) 100%);
 }     
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    font-size: 40px;
+    color: red;
+    gap: 28px;
+}
